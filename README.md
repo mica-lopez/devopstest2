@@ -6,7 +6,7 @@
 
 2: Run the container using docker-compose on each EC2 instances
 ===========================================
-On one of the EC2 instances, the docker-compose stack will include MySQL 5.7 and will have the DB server role. Each EC2 will run the web application.
+the docker-compose stack will include MySQL 5.7. Each EC2 will run the web application and database.
 
 * create docker-compose.yml
 * modify the application to get the DB credentials from ENV instead of hardcoded
